@@ -19,7 +19,7 @@ graph LR
     end
 
     subgraph Backend [Backend API: FastAPI / Express]
-        API[/api/optimize, /api/evaluate, /api/compare]
+        API["/api/optimize, /api/evaluate, /api/compare"]
         Tokenizer[BPE Tokenizer Engine]
         HistoryStore[In-memory Session History]
     end
