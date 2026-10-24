@@ -1,0 +1,6 @@
+{
+  "name": "Promptora — Open-Source AI Prompt Optimizer",
+  "description": "Trim the noise, keep the meaning. Open-source AI prompt optimizer powered by local Ollama models with token metrics, meaning preservation checks, and before-and-after output testing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
