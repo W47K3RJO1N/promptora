@@ -161,7 +161,6 @@ Copy `.env.example` to `.env`:
 | `OLLAMA_MODEL` | `gemma3:4b` | Default local language model |
 | `MAX_PROMPT_LENGTH` | `25000` | Maximum prompt characters allowed |
 | `OLLAMA_TIMEOUT_SECONDS` | `90.0` | Inference timeout for local GPU/CPU |
-| `GITHUB_REPO_URL` | `https://github.com/tokenwise/tokenwise` | Repository link |
 
 The Clerk and Upstash variables listed above are required for Vercel's public API. Keep secret keys in Vercel server-side environment variables; never add them to `VITE_*` variables or commit them.
 
